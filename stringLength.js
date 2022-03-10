@@ -1,6 +1,7 @@
 function stringLength(str)
 {
-  console.log( [...str].length)
+  
   return  [...str].length;
   
 }
+module.exports = stringLength;
