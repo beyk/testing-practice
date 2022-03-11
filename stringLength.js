@@ -9,9 +9,16 @@ function stringLength(string) {
 function reverseString(string) {
   return string.split('').reverse().join('');
 }
+function capitalize(string) {
+  string = string.split('');
+  string[0] = string[0].toUpperCase();
+  return string.join('');
+}
 module.exports = {
   stringLength,
-  reverseString
+  reverseString,
+  capitalize
 };
+
 // console.log(stringLength("036547896"))
 // console.log(reversString("01236547896"))

@@ -1,4 +1,4 @@
-const { stringLength, reverseString } = require('./stringLength.js');
+const { stringLength, reverseString, capitalize } = require('./stringLength.js');
 
 describe('stringFunctions',() => {
 test("The length of Hello is 5",() =>{
