@@ -1,6 +1,6 @@
 const { stringLength, reverseString } = require('./stringLength.js');
 
-
+describe('stringFunctions',() => {
 test("The length of Hello is 5",() =>{
      expect(stringLength("Hello")).toBe(5);
 })
@@ -18,3 +18,4 @@ test('"messi" reversed should be "issem"', () => {
 // // test("hello must be reversed to olleh",() =>{
 // //     expect(reversString("hello")).toMatch("olleh");
 // // })
+})
